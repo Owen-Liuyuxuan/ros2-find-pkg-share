@@ -2,6 +2,8 @@
 
 Navigate from `$(find-pkg-share …)` references in ROS 2 launch XML files to the corresponding file in your workspace.
 
+![jump](./docs/jump.gif)
+
 ## What it does
 
 This extension registers a **Go to Definition** provider for XML files. When your cursor is on a `$(find-pkg-share package_name)/relative/path` expression, you can jump directly to that file—similar to Ctrl+Click on an import in source code.
